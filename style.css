@@ -141,14 +141,74 @@ main {
     align-items: center;
     margin: 30px 20px 0 0;
 }
-.cont-8 button a{
+.cont-8-5 {
+    padding: 20px 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.cont-8-5 button a{
     text-decoration: none;
     color: black;
 }
-.cont-8 button {
+.cont-8-5 button {
     height: 30px;  
     width: 250px;
     border: none;
     border-radius: 40px;
     background: rgb(255, 230, 0);
+}
+footer{
+    width: 100%;
+}
+
+.back-to-top{
+    background: rgb(54, 70, 89);
+    width: 100%;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    a {
+        color: white;
+        text-decoration: none;
+
+    }
+
+} 
+.f-cont-1 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    /* margin:  0 50px 0 50px; */
+    justify-content: space-evenly;
+    padding-top: 20px ;
+    background-color: rgb(34, 46, 61);
+    color: white;
+    li {
+        list-style: none;
+        color: white;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    border-bottom: 1px solid #ddd ;
+}
+.f-cont-info-1, 
+.f-cont-info-2,
+.f-cont-info-3,
+.f-cont-info-4  {
+    line-height: 25px;
+    div {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    a:hover {
+        border-bottom: 1px solid white;
+    }
 }
